@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="header flex justify-between items-center text-gray-300 py-[1rem] px-[0.8rem]">
         <Link className="logo" to="/">
-        <img src={logo} alt="nft logo" />
+        <img src={logo} alt="nft logo" className="w-[100px] h-[20px]" />
         </Link>
         <Menubar />
         <div className="call-to-action-btns flex gap-4">
