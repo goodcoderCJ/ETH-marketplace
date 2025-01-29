@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  @apply bg-gradient-to-r from-[#060714] to-[#12131f];
+  font-family: 'Roboto', serif;
+}
+
+.nav-links .active {
+  @apply text-red-500;
+}
