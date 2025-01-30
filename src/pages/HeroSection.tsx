@@ -60,7 +60,7 @@ const HeroSection = () => {
   return (
     <>
      
-    <section className="hero-section mt-[3rem] relative ">
+    <section className="hero-section mt-[0.5rem] relative pt-[3rem] pb-[2rem] ">
       
       {/* background image */}
       <img
@@ -69,10 +69,10 @@ const HeroSection = () => {
         className="w-full h-full object-cover hidden md:flex absolute mix-blend-overlay opacity-5"
       />
 
-      <div className="hero-section-content py-[3rem] relative">
-        <div className="hero-section-grid grid grid-cols-[20%_50%_20%] grid-rows-[9%_9%_9%_9%_9%_9%_9%_9%_9%_9%_9%] gap-2">
+      <div className="hero-section-content py-[3rem] relative ">
+        <div className="hero-section-grid grid grid-cols-[25%_50%_25%] grid-rows-[9%_9%_9%_9%_9%_9%_9%_9%_9%_9%_9%] py-[2rem]">
           {/* first col */}
-          <div className="first-grid-layout col-start-1 col-end-2 row-start-3 row-end-11 grid grid-cols-[25%_25%_25%_25%] grid-rows-[18%_46%_18%_18%]">
+          <div className="first-grid-layout col-start-1 col-end-2 row-start-3 row-end-11 grid grid-cols-[25%_25%_25%_25%] grid-rows-[18%_46%_18%_18%] opacity-30">
             <div className="first-col-1 flex flex-col items-center gap-1 col-start-2 col-end-3 row-start-1 row-end-2">
               <img
                 src={firstgrid[0].image}
@@ -121,7 +121,7 @@ const HeroSection = () => {
                   Experience
                 </h1>
             </div>
-            <div className="third-title-text flex items-center justify-center mt-[1rem]">
+            <div className="third-title-text flex items-center justify-center mt-[1rem] mb-[2rem]">
               <p className="text-gray-500 text-[0.85rem]">Discover, collect and sell</p>
             </div>
             <div className="search-container flex justify-between items-center bg-white rounded-[10px] w-[50%] m-auto py-[0.8rem] px-[0.4rem]">
@@ -141,7 +141,7 @@ const HeroSection = () => {
             </div>
           </div>
           {/* third col  */}
-          <div className="third-grid-layout col-start-3 col-end-4 row-start-4 row-end-11 grid grid-cols-[26%_28%_16%_16%_14%] grid-rows-[20%_20%_20%_20%_20%]">
+          <div className="third-grid-layout col-start-3 col-end-4 row-start-4 row-end-11 grid grid-cols-[26%_28%_16%_16%_14%] grid-rows-[20%_20%_20%_20%_20%] opacity-30">
           <div className="first-col-1 flex flex-col items-center gap-1 col-start-1 col-end-2 row-start-5 row-end-6">
               <img
                 src={firstgrid[3].image}
